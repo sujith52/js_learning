@@ -1,34 +1,29 @@
-// let isJsProgrammingLanguage = true;
-// let isJsHard = false;
-// let favNum = 4;
-// console.log(isJsProgrammingLanguage);
-// console.log(isJsHard);
-// console.log(favNum + undefined);
+// today 29-01-2025
 
-// let firstFavNumb = 6;
-// let secondFavNumb = 5;
+// let password = 8;
+// if (password === 8) {
+//   console.log("Welcome");
+// } else if (password <= 8) {
+//   console.log("Pasword is too short ");
+// } else if (password >= 8) {
+//   console.log("Pasword is too Long ");
+//   console.log("password should contain 8 characters ");
+// } else {
+//   console.log("Please provide a Password");
+// }
 
-// console.log(firstFavNumb > secondFavNumb);
-// console.log(firstFavNumb < secondFavNumb);
-// console.log(firstFavNumb >= secondFavNumb);
-// console.log(firstFavNumb <= secondFavNumb);
-// console.log(firstFavNumb === secondFavNumb);
-// console.log(firstFavNumb !== secondFavNumb);
-// console.log(firstFavNumb == secondFavNumb);
-// console.log(firstFavNumb !== secondFavNumb);
-
-// let favActorFirstName = "jennifer";
-// let favActorLastName = "lawerance";
-// let fullName = favActorFirstName + favActorLastName;
-// let uppercase = fullName.toUpperCase();
-// let message = "My fav actor is " + uppercase + " is very good";
-// console.log(message + " his best show in silicon valley");
-// console.log(fullName);
-// console.log(uppercase);
-// console.log(message);
-
-let fiv = "jhon";
-let las = "wick";
-let full = fiv + las;
-let mess = `hello actor ${full}`;
-console.log(mess);
+// switch statements
+let fruit = "kaya";
+switch (fruit) {
+  case "banana":
+    console.log("Banana is good");
+    break;
+  case "orange":
+    console.log("i am not a fan of orange");
+    break;
+  case "apple":
+    console.log(" how do you like apples");
+    break;
+  default:
+    console.log("I never heard of that fruit");
+}
